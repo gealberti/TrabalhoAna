@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-        public void onClick(View view){
-            Intent it = new Intent(getBaseContext(), Cadastro.class);
-            startActivity(it);
-        }
+    public void onClick(View view){
+        Intent it = new Intent(getBaseContext(), Cadastro.class);
+        startActivity(it);
+    }
 
     @Override
     public void onBackPressed() {
